@@ -1,68 +1,50 @@
-# MainSpaceVision
+# Welcome to your Expo app 👋
 
-Una aplicación de exploración espacial construida con React Native y Expo, utilizando la API de la NASA.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Características
+## Get started
 
-- **Exploración Espacial**: Visualiza la Imagen Astronómica del Día (APOD).
-- **Mars Rovers**: Explora fotos tomadas por los rovers Curiosity, Opportunity y Spirit.
-- **Objetos Cercanos (NEOs)**: Monitorea asteroides cercanos a la Tierra.
-- **Búsqueda**: Busca en la vasta librería de imágenes de la NASA.
-- **Favoritos**: Guarda tus imágenes favoritas localmente.
-- **Diseño Moderno**: Interfaz oscura y elegante con estilo espacial.
+1. Install dependencies
 
-## Requisitos Previos
+   ```bash
+   npm install
+   ```
 
-- Node.js (LTS recomendado)
-- npm o yarn
-- Dispositivo móvil con la app **Expo Go** instalada (Compatible con SDK 54)
+2. Start the app
 
-## Instalación
+   ```bash
+   npx expo start
+   ```
 
-1.  **Clonar o descargar el proyecto**:
-    Asegúrate de estar en la carpeta del proyecto.
+In the output, you'll find options to open the app in a
 
-2.  **Instalar dependencias**:
-    Ejecuta el siguiente comando en tu terminal para instalar todas las librerías necesarias:
-    ```bash
-    npm install
-    ```
-    o
-    ```bash
-    npx expo install
-    ```
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-## Ejecución
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-1.  **Iniciar el servidor de desarrollo**:
-    ```bash
-    npx expo start
-    ```
+## Get a fresh project
 
-2.  **Abrir en tu móvil**:
-    - Escanea el código QR que aparece en la terminal con la cámara de tu móvil (iOS) o desde la app Expo Go (Android).
-    - Asegúrate de que tu móvil y tu ordenador estén conectados a la misma red Wi-Fi.
+When you're ready, run:
 
-## Configuración de API Key (Opcional)
-
-La app viene con una API Key de demostración. Para una experiencia completa y sin límites de velocidad, obtén tu propia key en [api.nasa.gov](https://api.nasa.gov/) y reemplázala en `src/api/nasa.js`:
-
-```javascript
-const DEFAULT_API_KEY = 'TU_API_KEY_AQUI';
+```bash
+npm run reset-project
 ```
 
-## Estructura del Proyecto
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-- `src/api`: Funciones para conectar con la API de la NASA.
-- `src/components`: Componentes reutilizables (Tarjetas, Visores, etc.).
-- `src/screens`: Pantallas principales de la aplicación.
-- `src/hooks`: Lógica personalizada (Contexto de Favoritos).
-- `src/utils`: Utilidades auxiliares (Fechas, Almacenamiento).
-- `assets`: Imágenes y recursos estáticos.
+## Learn more
 
-## Solución de Problemas
+To learn more about developing your project with Expo, look at the following resources:
 
-- **Error de Assets**: Si faltan iconos, asegúrate de que la carpeta `assets` contenga `icon.png`, `splash.png`, etc. (Este proyecto ya los incluye).
-- **Límites de API**: Si las imágenes no cargan, es posible que la API Key de demo haya excedido su límite. Usa una key propia.
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
-¡Disfruta explorando el universo!
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
